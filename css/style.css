@@ -1,0 +1,19 @@
+body {
+  background-color: #4f8;
+}
+
+#telas {
+  position: fixed;
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  top: 10px;
+  left: 10px;
+
+  background-color: #000;
+  border-radius: 10px;
+}
+
+#telas canvas {
+  width: 100%;
+  height: 100%;
+}
